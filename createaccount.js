@@ -13,7 +13,7 @@ const wif= "5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 const fee= "0.200 STEEM"
 
 // Сумма делегирования SP
-const delegation = "00000.000000 VESTS"
+const delegation = "61758.934888 VESTS"
 // Логин создателя (вашего существующего аккаунта)
 const creator= "steemit"
 
