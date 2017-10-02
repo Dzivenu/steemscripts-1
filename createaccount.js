@@ -9,9 +9,11 @@ golos.config.set('websocket', "wss://steemd.steemitdev.com")
 // Активный ключ создателя (вашего существующего аккаунта)
 const wif= "5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-// Комиссия блокчейну за создание аккаунта
+// Комиссия за создание аккаунта
 const fee= "0.200 STEEM"
 
+// Сумма делегирования SP
+const delegation = "00000.000000 VESTS"
 // Логин создателя (вашего существующего аккаунта)
 const creator= "steemit"
 
@@ -43,7 +45,7 @@ const memoKey= x.memo
 
 const ext =""
 
-golos.broadcast.accountCreate(wif, fee, creator, NAME, 
+golos.broadcast.accountCreate(wif, fee, delegation, creator, NAME, 
 ownerAuth, 
 activeAuth, 
 postingAuth, 
