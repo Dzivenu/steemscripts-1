@@ -10,7 +10,7 @@ golos.config.set('websocket', "wss://steemd.steemitdev.com")
 const wif= "5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 // Комиссия за создание аккаунта
-const fee= "0.200 STEEM"
+const fee= "0.500 STEEM"
 
 // Сумма делегирования SP
 // При создании аккаунта необходима минимальная сумма VESTS для делегирования.
