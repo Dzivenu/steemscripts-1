@@ -13,7 +13,9 @@ const wif= "5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 const fee= "0.200 STEEM"
 
 // Сумма делегирования SP
-const delegation = "61758.934888 VESTS"
+// При создании аккаунта необходима минимальная сумма VESTS для делегирования.
+// При этом у вас должен так же быть запас SP для создания аккаунта.
+const delegation = "57000.000000 VESTS"
 // Логин создателя (вашего существующего аккаунта)
 const creator= "steemit"
 
